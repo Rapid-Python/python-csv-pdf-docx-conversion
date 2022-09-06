@@ -1,0 +1,402 @@
+time,name,message
+12:00:26,Apoorv Nag, we have four people in the team. 
+12:00:44,Vijay Mishra,"okay, so i think i had a word with no rvgit actually. so he was saying he, you know, praveen will be working on no jungle for a couple of days. i think probably he's free by now or what, because he asked me like a couple of days back only "
+12:00:53,Apoorv Nag,"i followed up. followed up praveen yesterday. he was working on the script. only. i will follow up with him today, okay? "
+12:00:57,Vijay Mishra,"okay, which one is good? "
+12:01:06,Apoorv Nag,"the scraping part from variable, he was having some challenge in scraping the trending collections from reliable website. so that "
+12:01:07,Vijay Mishra,okay. 
+12:01:19,Apoorv Nag,"yesterday. and i will also ping him. i will ask i will, you know, i will ask him to join this call and give the latest report. how much freeze? "
+12:01:24,Vijay Mishra,oh no. and what about the one in turn? 
+12:01:41,Apoorv Nag,"intern. so the intern is has learned how to write apis in flask and she can learn on her own also, but i think he might be the pace might be slow as compared to praveen komal and abhishek. "
+12:02:25,Vijay Mishra,"i know the thing, you know, i, i'm asking it like, because today we had a call with no present user and for the very first time, i think the code the demo was extended for one week. okay. so he said key, you know, since apa apa was the part of it or the demo. so he said key noises electron next week, just create a no final deadline and then the demo will happen maybe one week after one week. so no we need to like not get this thing done by anyhow. so i was just suggesting key, you know, if you have like as much as people, you know, and as many people possible in the your team so they can all walk together. so i'll be, you know, sharing some other work that we need "
+12:02:27,Apoorv Nag,"sure. okay, "
+12:02:36,Apoorv Nag, praveen. can you tell like how much work is left out in jungle now? 
+12:02:52,Pravin Prabhakar Mohadika,and now me near about all all were worker. come completed. just means that. did they toughest work were work? is painting currently. 
+12:02:58,Apoorv Nag,"okay. how much like by half day, will you be able to get free? "
+12:02:59,Pravin Prabhakar Mohadika,yeah. okay. 
+12:03:01,Apoorv Nag,till 2 o'clock. 
+12:03:03,Pravin Prabhakar Mohadika,yeah. 
+12:03:06,Apoorv Nag,okay. 
+12:03:41,Vijay Mishra,"okay. that's fine. probably noises. also not just try to get you know that thing done because i had a word with no rpg. so he was also suggesting he will be taking like a couple of days maybe two to three days. okay. and that conversation happened on monday. okay. so just try to get this thing done so no because the so, you know, we were having conversation with the percentages and he was suggesting he since you know, you guys this is going to be the no one proper project for you guys. so, you know, you so we should like done, "
+12:03:42,Pravin Prabhakar Mohadika,okay. 
+12:03:44,Apoorv Nag,okay. 
+12:04:00,Vijay Mishra,"so i think so, let me show, you know, walk and the document, then we can like, you know, finalize, the deadline. because anyway, he was asking to give the demo no after one week. so, next one week comes next, thursday? only. okay. "
+12:04:03,Apoorv Nag,okay. 
+12:04:34,Vijay Mishra,"okay, you okay, on on 8th of september.  okay. so before going on to that, let me just discuss with you guys. let me know document that we prepared so there will be no confusion.  in the meanwhile, obviously, like should we go through the, you know, obviously go through the no, that description. so we extend the entire script logic and everything to the python team that will be advisable. what "
+12:04:48,Abhishek Sharma,"so, if they are not able to get it, how we are doing this and getting problem in integrating then we can explain that if they understand how we are expecting. how exit logic is working. that is cool. we can "
+12:04:49,Vijay Mishra,"so, "
+12:04:50,Abhishek Sharma,skip that. 
+12:05:11,Vijay Mishra,"oh like, would it be like no fine or like i think you know, maybe suggested for you guys to let no go through the logic? like, no. so obviously, it will be explaining the logic. if you guys have any source with our script, like no, why some functions and wrote in such manner or whatever and that maybe so you can like no work faster. so should we do it? like we say, it will be explaining it to your team. "
+12:05:14,Apoorv Nag,"sure, we would like to know more. "
+12:05:16,Apoorv Nag,here. 
+12:05:19,Vijay Mishra,"okay, great. so please let me say god just "
+12:09:29,Abhishek Sharma,"okay. sure. so basically i'm explaining transcript that is written bs4. so basic first of all, we use selenium in order to create the instance and and click on the enjoy now and captioning that thing the whole idea is here how we can extract text. for that. first of all, i expected the class.  that is in, the text box is here. you can see. if you see this, there is a text box. every textbook text box has a class. this class i extracted after that i checked that that this class is exist or not. if this class doesn't exist that means nobody speaking and test box is empty. if that is one doesn't empty, i extract the last one. because at a time more than one class can be created maximum to class can be created. i'm expecting the latest one. after structing, the class detox box text box contain, a list of spans of elements, they need to that contain the sub sentences. after that, i append to a list. after, i generate the sentence, and initial initialization them to the temporary variables. the ids is compared every text to box. you see in the caption box as a unique id created, then this text disappears another xbox appears that id changes so, when the id is same, then we compare on base of the length of the sentence. that has been written. if that is length is keep on increasing, we simply swipe that variables. if the length is less that happens, only when a person speaks for a more than one minute or two, then the whole sentence that is being written on the text box disappears and the length of the text will decrease. after when the text len, decrees, we tokenize, the sentence and sentence, organize the sentence and extract. the last sentence and find this index in the temporary variable. last temperature, and replace it. after that. we come see that if the text id is changed, then we write the whole temporary variable that being extracted with name and the timestamp after that it comes the exit logic. we keep on checking, the, what is the number of count of user is there? if there is a no user only bot is there, commonly one? if the count is 1 and the file which, in which we writing is not empty. then we start the exit logic of two minutes, it's keep on checking the number of user. if the person joins in, within the two minutes, it's restart the process and start writing again in the two minute time. if the person doesn't write doesn't comes, join the meeting. then it will start the inside logic that it will dump the last temporary variable to the file and click on the exit intimidating. no, i can. and then it's move up, moves out of the most of the transcript. that is all happening. if anyone have a no. and us. "
+12:09:46,Komal Kumari,"i have one note, like yesterday, i was running a script. even at the same time, i have opened the mid transcript. so when i'm comparison the both like a boat transcript of some messages are missing in this, "
+12:09:48,Abhishek Sharma,"messages accuracy, we have "
+12:10:03,Komal Kumari,"last last one, last one. like when the user got changed? okay. if you are talking, i'm talking. so your last conversation, last word, maybe last sentence. it's got missing when i come to the like in, i started to speak. "
+12:10:09,Abhishek Sharma,so you are running which script this vs41 or selenium. 
+12:10:12,Komal Kumari,"let's see, the name is 412. tell you like a whole build like this base for "
+12:10:42,Abhishek Sharma,"currently, i am also running this script. from my point of view doesn't messes, the sentences any share me if you can share me, then i can verify. because the, we are getting the issue of missing the last sentence that why we implemented this logic. of less than when the length is less than the temporary sentence. "
+12:10:44,Komal Kumari,okay. 
+12:10:54,Abhishek Sharma,"we approximately checked on at least 50 meetings. transcripted more than 50 meetings. it works properly, i think, "
+12:10:58,Komal Kumari,perfect. 
+12:11:00,Komal Kumari,oh 
+12:11:26,Vijay Mishra,"you can do one thing. you can like, no, run the not extensive extension. no extension thing. you know, and at the same time you can also compare with that. so if you're finding this, it's good thing. okay. so we'll start this out if there's a  some, there's some miners differences between like not extension thing and the one that we are running. so we'll "
+12:11:42,Abhishek Sharma,one thing can happen. some sentences will be missed. because the script will run if this person to person speak very frequently. two classes will be generated and it will disappear 
+12:11:43,Komal Kumari,"yes, yes. "
+12:12:33,Abhishek Sharma,"be missed. because the of the script running scheme speed, it can't get that much speed in order to extract every class that happens in the chrome extension also in our case also, but in the chrome extension, there is a repeat repetition issue. and the missing issue is there but is that that percentage less than 0.5%? i think in our case is also point less than 0.5% because script can run in that dead speed and stuck every class. it happens only when two percent interact, very quickly with each other and very short sentences. such as a person says, okay. then it's a hello, then this can happen, rather, it will not happen. "
+12:12:59,Vijay Mishra,"says the right in the last devon. now that's why it's happening. but no that is the reason why i know we really cast you guys for no doing the further development, or an improve improving the same script, but no, that we can like not keep aside for now, let's do this one thing. so, in the mean while no formal, if you come across, you know, all those missing things or the different things you can come up with, but no, the first priority right now is to, you know, do the development "
+12:13:01,Komal Kumari,"okay. no, "
+12:13:09,Vijay Mishra,"that is really good. anna, if you're coming up with all these things is really good. like "
+12:13:12,Komal Kumari,"  okay, focus on development things. yeah. "
+12:13:45,Vijay Mishra,"once this done then we would love to like know and even we will be asking you guys to like not do the further. no enhancement on top of that transcript. okay. so that would be expecting but not now legacy not because now the demo is like you so we'll be focusing on that. okay, so let me like do you guys have any any questions like with the respect to transcript? any of you ask? "
+12:13:49,Apoorv Nag,i don't have any. 
+12:13:55,Vijay Mishra,"okay praveen, you have it obviously near you "
+12:13:57,Abhishek Negi,"no, no question, no matter. "
+12:13:58,Vijay Mishra,okay. 
+12:13:59,Pravin Prabhakar Mohadika,for no. 
+12:14:19,Vijay Mishra,"okay. great, like, let me take you through the requirement document. "
+12:15:14,Vijay Mishra,"so i put asina previously. so actually we need to like no follow all these things. these are the things like we are. requiring from you guys, you know for these aps. i'll be explaining you one by one and also i'll be like no saying, no on mail will put in while putting, you know personally. okay, so the one thing that we expecting, you know, in this demo that supposed to happen on 8th of september. okay, so the first thing, i think you guys already cracked it, you know, the creating meeting event using the google calendar api. okay? so, one thing i'm expecting is like he, you will be adding aiml, you know, user as a default when user is creating now using the api. so this bot so be the default, you know, guest is it making sense? i put. "
+12:15:15,Apoorv Nag,yes. 
+12:15:18,Vijay Mishra,"okay, so this, we can do it now. no. "
+12:15:20,Apoorv Nag,yeah. 
+12:15:41,Vijay Mishra,"no putting in the right now, because this will take more no more time. so, i'm just putting for the future work. okay, these two things not like, thinking the calendar, okay? and the third thing is like, if you know, if someone isn't any inviting our bot, okay? so these two different, you know, experts of the creating the event. we are skipping for future work. okay. "
+12:15:42,Apoorv Nag,okay. 
+12:16:26,Vijay Mishra,"okay? and the third thing is just like no binder guidelines like you know, how use of like no follow and you are free to like choose your other tools and whatever that you guys want to not do. so the second thing would be like, no event extraction thing. okay. so we want like, you know, the school that script should run every single minute. no, and it should like no extract all the event or all the recent created event using the rapid trans user, okay? because this user will be the default in here, okay? so once it is a default, so we can scan or we can like, you know, do the extraction event extension from this user, okay? so we'll have all the calendar event of this user only, so we are focusing on one thing only getting it now not on "
+12:16:27,Apoorv Nag,right. 
+12:16:35,Vijay Mishra,"all the event or using other, you know, other like user calendar and all that. so we are using only one calendar as far as this demos comes up, "
+12:16:36,Apoorv Nag,okay. 
+12:16:43,Vijay Mishra,"okay. so any confusion or any confusion, you do you guys have not or any thing so you can ask me right now, only. okay, "
+12:16:45,Apoorv Nag,okay. 
+12:16:49,Vijay Mishra,so the other thing that we expecting is this thing is clear now event extract something. 
+12:16:56,Apoorv Nag,"yes. so every time the main user, the main calendar owner is the aiml. "
+12:16:57,Vijay Mishra,yes. 
+12:17:01,Apoorv Nag,"okay, so every meeting which is getting created is on behalf of aiml as organizer. "
+12:17:03,Vijay Mishra,exactly. 
+12:17:04,Apoorv Nag,okay. 
+12:17:06,Vijay Mishra,this is the host basically. 
+12:17:07,Apoorv Nag,okay. 
+12:17:08,Vijay Mishra,hosting the meeting. okay. 
+12:17:28,Apoorv Nag,"okay. so what we were doing currently was he we were logging in with our gmail id and we were using that token to create the meeting as organization. so as organizer, so instead of doing that, we just have to use the token of aiml everything  "
+12:17:28,Vijay Mishra,exactly. 
+12:17:30,Apoorv Nag,okay. 
+12:17:42,Vijay Mishra,"okay. and apart from that no we need to ignore. run our script like no simultaneously every applic one minute. so we can extract, you know, every single latest calendar event from the eaml user "
+12:17:58,Vijay Mishra,"eaml user calendar. okay. and we are also expecting right now. i bought basically no should join. okay. all the extracted event now before no, before five minutes. okay, before 5 minutes of schedule time. "
+12:18:00,Apoorv Nag,before five minutes. 
+12:18:15,Vijay Mishra,"hmm. okay, and, and leave the meeting. after all the users exit, except the bot. okay? so, the one logic that now obviously was, you know, explaining to you guys. so this is already written. okay? "
+12:18:27,Vijay Mishra,"that how the board should exit. okay, any confusion probably in komal on this point. "
+12:18:31,Apoorv Nag,"abhishek, is there anything you want to ask? "
+12:18:36,Abhishek Negi,"yeah, i have a one question, third, creating an event. we need token. "
+12:18:42,Abhishek Negi,access token and refresh token. so how we get the token of ai dot ml? 
+12:18:45,Vijay Mishra,"look, no, there's a google console. i think "
+12:18:46,Abhishek Negi,"because, "
+12:18:49,Vijay Mishra,"yes. so how yes, please. "
+12:18:54,Abhishek Negi,"because when user login, then this token is "
+12:18:57,Vijay Mishra,exactly. 
+12:19:21,Vijay Mishra,"so, i just got your point. so the thing is now once you go to the google console you know, there's a there's a dev console over there. so once you log in with this thing, now then you can create the token over there. okay? for this user and then you can use that token and you can give the what sort of different things that you want to do with the token, give all the authorization and then you can use this thing. "
+12:19:25,Abhishek Negi,"okay, okay. "
+12:19:31,Vijay Mishra,"you know, i think your team is already doing it. i think no you can also take a understanding from them. "
+12:19:40,Apoorv Nag,"and yes, our team actually, in rapid view, we are doing the google earth and using the token after we get to the login, we use that we do not  "
+12:19:43,Vijay Mishra,hmm. 
+12:19:48,Apoorv Nag,"google dashboard. so, we will do. "
+12:19:48,Vijay Mishra,and please just 
+12:20:01,Apoorv Nag,"yes we will figure out like we will do the thing like for the aiml, after the login, whatever the token we get, we will try to generate an access token in the dashboard so that we don't have to do it again. "
+12:20:25,Vijay Mishra,"hi. exactly. and one thing you also suggesting, you know, previously that you are no, you'll be like doing something so that, you know, the the no, the caption things. sometimes we get now to authenticate is susan, other thing for this reason, so that you're saying he will be doing dynamically and it will be sorted like so that is who should not become not be coming. you you getting up? "
+12:20:26,Apoorv Nag,"okay, no. can "
+12:20:40,Vijay Mishra,"okay. okay, previously you were saying that the no when the bot is, you know, joining the meeting then sometime, you know, this caption comes into film manually, okay? or sometimes the name comes in to fill "
+12:20:41,Apoorv Nag,"yes, "
+12:20:54,Vijay Mishra,okay. so that is basically you know happening be you know because of token other stuff that should also not happen and you said key you are you crack that thing and you understand it like how you're going to solve that thing? 
+12:20:58,Apoorv Nag,"regarding the refresh token. yes, "
+12:20:58,Vijay Mishra,"yes, yes. "
+12:21:04,Apoorv Nag,we know how to generate that extend that token using refresh tool.  
+12:21:18,Vijay Mishra,"okay. and so we're expecting here. the captions will also not like come. while bot is joining the meeting because like, no, if that happens what will not able to like join the meat, you're getting it. now "
+12:21:19,Apoorv Nag,see 
+12:21:19,Vijay Mishra,now that happens. 
+12:21:37,Apoorv Nag,"this thing is seperate the point, which you're telling like joining the meeting. it is asking for the name. again, this is different. the point which i have clarified is extending the access token so that the token should not invalidate. after something. "
+12:21:40,Apoorv Nag,okay. 
+12:21:50,Vijay Mishra,"so i think like how okay that will look into it. i think that anyways not getting expired maybe like after three thirty days or something, i'm not sure about it. okay, so we'll look into it. "
+12:22:11,Vijay Mishra,"okay, so that is also one thing, not that, let's just leave that thing. i'll put it in orange for the future work. so, whatever that i'm putting out that will be in the future work. okay? not in order to do it in this time, in this demo, okay? so, i'll put that in like, for the later work. so, as per your understanding, what's that right? like for that problem. "
+12:22:13,Vijay Mishra,that name and the caption thing. 
+12:22:22,Apoorv Nag,"actually when we were discussing about the problem, you told like that part is already handled. we just have to concentrate on the extraction part. when komal was doing "
+12:22:23,Vijay Mishra,"ah, "
+12:22:25,Apoorv Nag,first initially. 
+12:22:34,Vijay Mishra,huh. that like no it's partly done. it's partly not but because no sometimes it's still like coming anyway like we'll see that the later 
+12:22:39,Vijay Mishra,"noises. okay, so the till now it's clear now. "
+12:23:02,Apoorv Nag,"yeah, to me it is clear and the i think the team is also on the same page except that currently abhisheku the flow which we have designed for the demo was key. the user will be logging in user will be creating the event on his behalf, like users being the organizer, but we will update that logic. okay, so "
+12:23:06,Vijay Mishra,"he gather things to update as well, i'll really coming on that but actually "
+12:23:08,Apoorv Nag,"okay, take "
+12:23:10,Vijay Mishra,so should we let go ahead? 
+12:23:12,Vijay Mishra,"okay. okay, so the  "
+12:23:13,Abhishek Sharma,we did. 
+12:23:15,Vijay Mishra,"yes, please. "
+12:23:16,Abhishek Sharma,want to add one point. 
+12:23:17,Apoorv Nag,hmm. 
+12:23:39,Abhishek Sharma,"if you generate a refresh token from the google, authentication for the calendar api. it will not it will not. of phase out. it will keep on refreshing and has the access to the account animal continuously. "
+12:23:40,Abhishek Sharma, 
+12:23:44,Apoorv Nag,yes. thank you. 
+12:23:47,Vijay Mishra,"okay, so we go ahead. "
+12:23:48,Apoorv Nag,yeah. 
+12:24:01,Vijay Mishra,"okay. so okay. so the one api that you guys are creating or this creating google calendar event. so right now, what's the parameter that you guys are using? maybe, you know, meeting "
+12:24:02,Apoorv Nag,that. 
+12:24:03,Vijay Mishra,title 
+12:24:18,Apoorv Nag,"yes. title start. time is there start time? is there a meeting link? is there meeting ids? also, there are two racing. the meeting in future. and description is also there. okay, but "
+12:24:32,Vijay Mishra,"that isn't the so actually we divided, you know, the this way api in electron this api in two different part one, the one thing that you will be like no sending, okay, in order to create the event, okay? and the one thing that we are expecting to get "
+12:24:33,Apoorv Nag,okay. 
+12:24:44,Vijay Mishra,"response. okay? so these things we are not expecting that will get in like in response. okay. so these things are expecting. you to like know, give a parameter for right for a user to "
+12:24:45,Apoorv Nag,okay. 
+12:26:20,Vijay Mishra,"okay. so the users should write, you know? so to be able to write like, you know, the meeting title, okay, and not. the users would be able to like know set the time zone. okay. and and no meeting time, that is obvious okay, and the fourth thing is a inviting the guest. for the guest. okay? and the four and the fifth thing is  customization, you know, i mean whether the user wants like no, repeat the meeting, you know weekly, you know alternatively or on some specific time or some specific day. okay. and also to attach no document. and also you know if you can like know if you like you since you're creating the events now you can see while using the ui google calendar ui. you can also like no put the meeting notes and agenda so what are the agenda for you know for the discussion in the meeting. so actually this thing why we are needing is we are trying to create a matrix or a kpi. wherein we will be like comparing the agenda like for example. now in today's meeting we have like no summer agenda to discuss and this meeting is recording. okay, it will happen tomorrow again so we'll compare that no agenda every single day. okay. for that for that thing we are like you know using this thing, okay? making sense. hello. "
+12:26:21,Apoorv Nag,yeah. 
+12:26:31,Vijay Mishra,"okay, so these things we want you to know, give user know the like the leverage to, you know, to input all these things. okay. "
+12:26:33,Apoorv Nag,okay. 
+12:26:38,Vijay Mishra,"and if there any like counter thought so please just you guys can say, "
+12:26:48,Apoorv Nag,"okay, we are doing the same while creating a meeting. yeah, not all the fields like made document or not, so we will add them. "
+12:26:49,Vijay Mishra,okay. 
+12:26:51,Apoorv Nag,okay. 
+12:26:56,Vijay Mishra,"okay, do ask it. if you guys have any confusing, any of you "
+12:26:58,Apoorv Nag,okay. 
+12:27:03,Vijay Mishra,"okay, should i go to response? "
+12:27:03,Apoorv Nag,yes. 
+12:27:32,Vijay Mishra,"okay. so, in the response, what we expecting is now you'll be giving us back the meeting title. okay. and no the schedule time when the meeting, you know, is supposed to happen, the start them, and then, okay. and the meeting duration, okay. beauty meeting duration, is you got it? not like because the start time and, and them that will be the meeting duration. okay. "
+12:27:33,Apoorv Nag,right. 
+12:28:07,Vijay Mishra,"okay, and list of like no guest in the meeting in the response that the expecting this. and if a user for example, in the post, now people in the parameter people uploaded, you know document. so we want that out document back the response okay. and again, the agenda thing we want back, okay. and the, you know, the time is temperature, actually actually the no, the one thing that we decided not he won unique id, we want for every single meeting along with the unique id that you guys are creating it. okay. "
+12:28:10,Apoorv Nag,yes. 
+12:28:39,Vijay Mishra,"okay, so do we have any like until alternative thought on this like, so a noise was like, will be giving you i'll be asking like my appropriate time to when these things will finish. so, we're expecting actually to finish this off now. next next thursday, and we will have a demo by then, i think it's not like mustang but you can, you guys can decide like, "
+12:28:41,Vijay Mishra,"is it? oh, "
+12:28:48,Apoorv Nag,doable. we have already created the meetings. we will figure out the figure out the rest of the 
+12:28:49,Vijay Mishra,hmm. 
+12:29:13,Apoorv Nag,"and after using the meeting id, we will be initiating that transcript api. and in transcript api, we are capturing the time when it is, starting actually. okay. when the board joins. so we will be able to find out like when does the board joint automatically from this from the crown job. okay. "
+12:29:20,Vijay Mishra,okay. so is it like okay for you guys? now this is a response. you will be getting all this response. 
+12:29:21,Apoorv Nag,yes. 
+12:29:59,Vijay Mishra,"okay. okay, and so let's, uh, no. come on. this api, the main area that we are developing. so in the post, what we expecting obviously you'll be like no passing, the hyperlink meeting hyperlink in this transcript. okay? api and the second thing, you know, whatever that you are getting in here. okay, so we want you guys to like no post it, you know, posters here again so we'll get this thing. okay, back. okay, so along with that, you know actually we have been how you guys are renaming the csv, or the whatever that you guys will be giving us in the response.  "
+12:30:06,Komal Kumari,"are currently. i am using the unique id that i have showed you like, so i'm using that thing. "
+12:30:09,Vijay Mishra,"okay, that the mongoose can be your thing. "
+12:30:18,Komal Kumari,ha like if not among mongo default it but one i didn't get generating a uuid. so i'm taking that as a name. 
+12:31:00,Vijay Mishra,"that's perfect. but again, coming back to same point. not this csv will be like, no will be, you know, saying for all the meeting now. so, we, this needs to be unique for every single day. you're getting it. so what we were thinking, you one idea anyway, you guys are giving it now. so this csv file you know, so how we should know how we're going to like identify i mean can you guys suggest like now being because we are going to like novel various metrics or various things on top of this document. so how we should identify? can you guys like "
+12:31:12,Apoorv Nag,"the csv id, we can give the csv the same idea of the api transcript id. we can match it. like the csv has been generated by which transcript "
+12:31:15,Vijay Mishra,"okay, no, the okay.  "
+12:31:39,Apoorv Nag,"and for the public to, for the public review, we can have the name of the meeting. also in the, in the csv file name, that will be cleaned by underscore removing the spaces and also appending the id of the epa transcript like this file belongs to which, which row "
+12:31:40,Vijay Mishra,okay. 
+12:31:45,Vijay Mishra,"okay, i'm having a little trouble to a little more getting to it, just let me know, just "
+12:31:45,Apoorv Nag,actually. 
+12:31:50,Vijay Mishra,"like, for example, not this event, this meeting event is recording. okay. so "
+12:31:52,Apoorv Nag,hmm. 
+12:31:53,Vijay Mishra,only for this meeting 
+12:31:54,Apoorv Nag,no. 
+12:31:55,Vijay Mishra,standard meeting. 
+12:31:55,Apoorv Nag,"no, actually. "
+12:31:57,Vijay Mishra,"so, "
+12:32:12,Apoorv Nag,"this is standard meeting. id is a stored in the meeting stable, okay? which is same, but every time we are joining that, what it will generate different transcript records, different rows in transcript table okay. "
+12:32:13,Vijay Mishra,okay. 
+12:32:22,Apoorv Nag,"so in that way, the idea of the transcript will be unique as many times. you join the same mate link. "
+12:32:25,Apoorv Nag,okay. 
+12:33:05,Vijay Mishra,"okay. along with that, i think that that thing you guys are already, you know, giving us as a response now. so that will be giving us a response. so, i think you can do one thing here. i think you can renee you know, rename this thing based on. based on the like meeting and and the respect to like timestamp. so, that will be easy for us like, or like, your kiran and like i'll be saying like what do you guys think? like, what's with appropriate? we know. for us to, like, do the further like development on top of it? "
+12:33:24,Kirankumar P,"like for us like a unique id will be fine but in order if the user comes in the dashboard, not identify which meat or like, when it happened or what type the date time and meet name, all three should be combined as a meat. i mean, csv file name, that will be like appropriate code. "
+12:33:50,Vijay Mishra,"how so above the same thing? like no, the no like, for the user for the end user. now how they will be like no getting to know like which not transcript because it will be also giving them options to like download the transcript as well getting it. so we need to, like know, give them understanding as well. so, which script is not belongs to vision. so they obviously, they, "
+12:34:01,Apoorv Nag,"right. and we will, we will we will get that file name in a meaningful way so that it can make some relation with the i, with the table. okay. we "
+12:34:03,Vijay Mishra,okay. 
+12:34:08,Apoorv Nag,okay? if you understand the file name should be intuitive looking at 
+12:34:11,Kirankumar P,yeah. 
+12:34:18,Apoorv Nag,"or the main agenda. the start time, the scheduled time of that meeting for which that transcript has been created. so "
+12:34:19,Vijay Mishra,hmm. 
+12:34:22,Apoorv Nag,in the file name. 
+12:34:27,Kirankumar P,that think it will be better if it has a the whatever the title user has given while 
+12:34:28,Apoorv Nag,yes. 
+12:34:35,Kirankumar P,meeting and it should have the exact date and the scheduled time these three should be combined. i think that will be better. 
+12:34:44,Apoorv Nag,"yes, exactly the same way fireflies. also do fireflies. also, mentions the meeting name and the starting. of the "
+12:34:45,Kirankumar P,yes. 
+12:34:47,Apoorv Nag,"yeah, it will do. okay. "
+12:35:01,Vijay Mishra,"okay. and the and the second thing is now, oh, we need to like now, have a kitten that do we need it? like you, right now, this present of the absent least? or should we do it later? "
+12:35:11,Kirankumar P,i think we can do it later because we will figure out the logical like in order like change the exactly the other matrix. also a connection. 
+12:35:17,Vijay Mishra,"hmm. okay, so should we skip it? i think. "
+12:35:20,Kirankumar P,yeah. 
+12:35:29,Vijay Mishra,"okay, so we can. okay so we can skip this thing up. above. so we can skip this thing. "
+12:35:33,Apoorv Nag,okay. okay. 
+12:36:11,Vijay Mishra,"okay, so these two things you can you guys can skip. so no we won't like no a main id and the sub id the sub id like no. it's better to like you know kiran suggested, it's better to have some some title and along with someone timestamp daytime is time, so that will be great. so main id, whatever. that mean, id that you guys will create enough, that is fine. you guys can create it, okay? so one sub id on top of it, we want as a response so we can identify, you know, the actually the meeting title and the day when that event happened and that meeting happen, okay?  so just figure out like how we'll be doing it. this not some meeting id, okay. "
+12:36:12,Apoorv Nag,okay. 
+12:36:36,Vijay Mishra,"okay, so the third thing is, you know, we are expecting you to like no give a s3 hyperlink, okay? so this will be, you know, along with these four different document, the no the dog and the csv pdf and json. so you can write like no, the same five, the same like no, jason object and you can write it into four different. no. file. okay. "
+12:36:41,Vijay Mishra,"and with along with three different columns, not time stamp username and message. okay. "
+12:36:50,Apoorv Nag,"okay, come again in this sailing unit times and use them and message. this "
+12:36:52,Vijay Mishra,as a 
+12:36:55,Apoorv Nag,will it be not every time aiml? 
+12:37:02,Vijay Mishra,"story. this is not using, for example, i mean, what, for example, i don't know right now, whosoever is there in the meeting. now, this "
+12:37:03,Apoorv Nag,huh. 
+12:37:09,Vijay Mishra," i mean, it's the same thing. i think you're getting a little confused so "
+12:37:11,Kirankumar P,i think it is. 
+12:37:12,Vijay Mishra,good. 
+12:37:24,Kirankumar P,"i think in the same transcript, you are using right in order to extract that is there are in the csr jason, whatever the field, we mentioned there, right? the column names. these are the same thing. he was "
+12:37:26,Apoorv Nag,okay. 
+12:37:28,Apoorv Nag,the content. okay. 
+12:37:30,Kirankumar P,yeah. 
+12:37:32,Apoorv Nag,"of this s3, message, s3 file.  "
+12:37:33,Vijay Mishra,hmm. yes. 
+12:37:40,Vijay Mishra,"okay, so now we expect no four different files. okay, out of this hyperlink  "
+12:37:47,Apoorv Nag,"you want the csv, you want the file of a transcript in four different versions? "
+12:37:49,Vijay Mishra,hmm. 
+12:37:53,Apoorv Nag,okay. 
+12:38:05,Vijay Mishra,"if it's because of not be sometime, you users are. and users are no comfortable with all these. no formats. so just as, i think we just need to like one of function in order to like know, right? this gslog jason object. "
+12:38:14,Apoorv Nag,hmm. right. and you will be expecting the json in the response also. 
+12:38:16,Vijay Mishra,huh. in the real time? yes. 
+12:38:22,Apoorv Nag,yes. okay. tk. 
+12:38:26,Vijay Mishra,that's it. i think. 
+12:38:52,Vijay Mishra,"and okay, one thing actually, you know, later on, okay, not in this call, we will discuss that later actually in the later. now, what we are trying thinking, you know, since the ui is not going to be like, no robust or some really dynamic. so we will be like no giving all the insights, all the matrixes in one document will be calling as a, you know, a report document or something and we'll be directly giving it. okay so that is a different thing. we will discuss that later. "
+12:38:53,Apoorv Nag,"oh, "
+12:38:59,Vijay Mishra,"now in this, what we need to do, like next,  "
+12:39:02,Apoorv Nag,"ill know, it is clear. okay. "
+12:39:07,Vijay Mishra,"hi, yes. "
+12:39:13,Apoorv Nag,"i'm thinking is the cron job in which we have to join that meeting, okay? "
+12:39:14,Vijay Mishra,hmm. 
+12:39:19,Apoorv Nag,"that meeting can be at any point of time depending on the minutes, okay? "
+12:39:20,Vijay Mishra,highly. 
+12:39:35,Apoorv Nag,"right? so what we are checking currently is we will be checking whether there is any next meeting which is going to happen. in next, five minutes we will join, okay? we will execute that post a transcript and the bot will join okay. "
+12:39:36,Vijay Mishra,he? 
+12:39:39,Apoorv Nag,"will again, the command will be running every minute. okay, if "
+12:39:41,Vijay Mishra,he? 
+12:40:27,Apoorv Nag,"joined then it will not create any other record. okay. any other process because the process will already begun for that meeting, okay? so here. here, what is happening. when the bot has joined the meeting five minutes before the status of the post transcript will be pending because the screen, the meeting is still going on. once the meeting is finished and the transcript is over that script running part. then only we will generate all those records, like s35 and the json structure in the dv. is it okay? "
+12:40:35,Vijay Mishra,"and that's fine. like i think, i think that's how it's done. like, "
+12:40:38,Apoorv Nag,tk. 
+12:40:39,Apoorv Nag,that is. 
+12:40:41,Vijay Mishra,"know, only do whatever that we expecting "
+12:40:43,Apoorv Nag,good. 
+12:40:55,Vijay Mishra,"you guys are free to choose whatever way that you guys are want to implement this thing, tools or whatever that may be. but these are the things, you know, in the end, we expecting it. "
+12:40:58,Apoorv Nag,this looks good to me. the document 
+12:41:04,Vijay Mishra,"okay, if you guys have any confusion just for the no clarity seek like you have you all on the same page. "
+12:41:14,Vijay Mishra,"on the same page. so earlier it like, you know, happen. so we are in the thing that you can, you know, it. i also like no written over here. the orange thing you guys can, you know, okay. "
+12:41:22,Apoorv Nag,"oh, take, you can share it with the python backend group. "
+12:41:46,Vijay Mishra,"haha, i'll share this thing along with the, you know, actually, i also like no. save the same thing with on the mail as well, and you guys need to like, give a timeline actually the time then the seven days is like, i think i say next,  and like on and on 7th of september end of day. like it will be done. "
+12:42:11,Apoorv Nag,"we will try to do it as soon as possible. okay? because so that because we need time to test. also, there are lots of intermittent issue which will arise. when you will be testing, our apis, you will be also having two or three issues, so we will try to finish it off. by fifth, so that we can have two days of testing and integration issues. issues. okay. "
+12:42:13,Vijay Mishra,you mean like monday evening? 
+12:42:23,Apoorv Nag,"yes, because as i see, there is no third apa involved here. only two apis, one is meeting apa, which have already created one, is transcript apk, right? all "
+12:42:24,Vijay Mishra,yes. 
+12:42:27,Apoorv Nag,on top of it. right. 
+12:42:30,Vijay Mishra,huh. 
+12:42:43,Apoorv Nag,"let me check, let me ask abhishek komal praveen. that is, what do you say? what are their comments? "
+12:42:51,Abhishek Negi,"oh god, creating an event. i have to check. how to? reflection over token. "
+12:42:52,Apoorv Nag,okay. 
+12:42:54,Abhishek Negi,yeah. 
+12:43:03,Apoorv Nag,"well, what we do we will do the research part first of this like what are the things whether we are getting all the data or not by today, okay? "
+12:43:04,Abhishek Negi,yeah. 
+12:43:12,Apoorv Nag,"by evening. we can tell you, like, how much time will it take to implement everything? "
+12:43:53,Vijay Mishra,"but like, as far as my, like, my understanding is concerned, i think you guys have developed this thing now. okay. so okay, we can do one thing. okay. you can do the r&d, okay, but but no, actually, i need to update the same thing to prasansa, okay, at the end of the day, i'll need to let them. give them a mail. i'll be also like, you know, putting you in the in that mail loop.  okay, and so we need to give him the like no deadline either. we can like skip few things though i don't want to because that will ruin the entire you know like this development part. okay. because we also plan to like do various other things so "
+12:44:16,Vijay Mishra,"expecting out of you guys key. you know, will have all those things completed no like on that, demo day.  so if you get, you guys can do the no further r&d, once you guys find me like something is, you know, maybe taking time or something. so, we can either skip that thing, maybe for this demo. but i would know i "
+12:44:16,Apoorv Nag,hmm. 
+12:44:19,Vijay Mishra,"you guys like not do that. like, because that "
+12:44:19,Apoorv Nag,yeah. 
+12:44:51,Vijay Mishra,"doing the like no entire thing. so you guys can, like, do the r&d, like, no, take like a couple of hours. why maybe by four or five? you guys can like, no suggest. so i need to like, you know, let him know. he actually i alternate explaining why, i know why the this, you know, it's not like it happened. this demo is not like no went as it is expected on this expected date. we also need to explain it to him. and along with that, we need to give him a final that deadline "
+12:44:52,Apoorv Nag,okay. 
+12:45:23,Vijay Mishra,"okay, so do the r&d. no, just take this document. do the r&d and see like so again, like if you're going to it, no april. so i think i think these guys, these things, you guys have no date nighting. all these other things like apart from the chrome thing that is you guys. i make i am thinking that you need to do the further r&d on that or maybe some other testing thing. but apart from that i think you guys have done all the things but, "
+12:45:25,Apoorv Nag,yes. 
+12:45:31,Vijay Mishra,like parameters that you need to like post. if you crack the one thing i think these are just the parameters. 
+12:45:33,Apoorv Nag,yes. 
+12:45:42,Vijay Mishra,and these are the responses like i can understand like now maybe the calculating. this might take some logic time. maybe building logic for that. 
+12:45:44,Vijay Mishra,apart from 
+12:45:50,Apoorv Nag,"is a, we are getting the start time of the meeting. similarly, we will get the end time also. "
+12:45:51,Vijay Mishra,exactly. yes. 
+12:45:55,Apoorv Nag,right. this is the what decided me duration and 
+12:45:56,Vijay Mishra,just landed plan with us. 
+12:46:04,Apoorv Nag,"right. and once, and when we are joining that bot, we are recording that time also, okay? and when "
+12:46:05,Vijay Mishra,hmm. 
+12:46:28,Apoorv Nag,"and when that bot is leaving, when we are updating the status as complete. in the post-transcript table, we will assign the n time also. okay? so in did by getting these four values, you will be able to make out what was the actual time and what is the later time? like, how much time did that actually meeting happened till what for, what duration? "
+12:46:51,Vijay Mishra,"okay, that partner clearly put, i think, i think that part might take, you know, take you some time. so, you know, you can do one thing only, you can take out, only meeting duration time, now the plan time because that will not be, you know, hard for you guys because you can do one thing. you can like, you know, get directly take the schedule time and the end time meeting start time and that will be the duration. land "
+12:47:05,Vijay Mishra,"okay, just do that. only other thing. you know the you know the actual spend time will calculate that later. all we will averting will be doing it. okay? you just leave that thing. okay. so, you just "
+12:47:26,Apoorv Nag,"yeah, while creating the meeting, the organizer organizer will be aiml and the one who is actually initiating the request from the dashboard that person is actually a rapid trans user, okay? really be just invited like a normal user in that meeting. "
+12:47:28,Vijay Mishra,"well, what exactly do you mean by "
+12:47:47,Apoorv Nag,"normally usernames in the request parameters of the meeting create meeting apa. there is add meeting guests and invites right. in this guest list, the one who is initiating the meeting actually, okay, from the dashboard his email id will be just given in the list of the guests, "
+12:47:59,Vijay Mishra,"no, no. okay. i got your point. okay, so to interrupt you, i think those were creating the meeting. now they will be the host. okay. for example, if i'm creating with vijay, educator opportunation.gov. so "
+12:48:00,Apoorv Nag,hmm. 
+12:48:06,Vijay Mishra,"and the ems will be the like, no inviting "
+12:48:14,Apoorv Nag,"oh okay, so now again we have reverted that part which i was just confirming in the initial "
+12:48:17,Vijay Mishra,"no, i said default, i i said, default default not "
+12:48:24,Apoorv Nag,"okay, take it. feel filter.  "
+12:48:28,Vijay Mishra,okay. who's the way they gonna do? i think those who created the event 
+12:48:37,Apoorv Nag,"alright, right? yeah, this is what i wanted to clarify. okay, so we are on the right path, okay? "
+12:48:40,Vijay Mishra,okay. hmm. 
+12:48:44,Apoorv Nag,abhishek praveen komal abhishek. 
+12:48:47,Abhishek Negi,"no, no, but it's good.  "
+12:48:48,Apoorv Nag,okay. 
+12:48:58,Vijay Mishra,"and one main part you guys are for getting it actually you haven't asked like, you know, there's no thing. okay. so we are expecting this thing to run on a aws easy to instance. "
+12:48:59,Apoorv Nag,yeah. 
+12:49:00,Vijay Mishra,"okay, "
+12:49:01,Apoorv Nag,"oh, "
+12:49:05,Vijay Mishra,the thing is not locally. 
+12:49:09,Apoorv Nag,"okay, so this demo has to happen on aws, easy to "
+12:49:10,Vijay Mishra,yes. 
+12:49:11,Apoorv Nag,okay. 
+12:49:23,Vijay Mishra,"we'll give you all. the everything is set up and even the python environment is set up over there, everything is set up. we just know configure the machine over there will be giving you the no credential and all the, like, understanding on the on the machine. "
+12:49:35,Apoorv Nag,"okay. thick abhishek has already set up one python service for video portal. so, the, our team knows this thing. "
+12:49:39,Apoorv Nag,how to take it. this is 
+12:49:42,Abhishek Negi,"it, i remember one small question. "
+12:49:43,Vijay Mishra,yes. 
+12:49:46,Abhishek Negi,"yeah, which python version you are using "
+12:49:52,Vijay Mishra,"python gay. using a three, seven, one three dot  "
+12:49:54,Abhishek Negi,okay. 
+12:49:56,Vijay Mishra,"let me see, like right now only, i  "
+12:49:59,Abhishek Negi,yeah. can you confirm 
+12:50:00,Vijay Mishra,mmm. 
+12:50:06,Abhishek Negi,because it python version is different than dependency problem issue. 
+12:50:26,Vijay Mishra,"i think on the machine, i'm still still not sure on the machine but here it's i, "
+12:50:33,Vijay Mishra,i think i will need like check on the machine. is you're not locally but must all machine. i'll be checking. okay? because this is 
+12:50:36,Abhishek Negi,okay. okay. 
+12:50:39,Vijay Mishra,i want like configured till now. 
+12:50:43,Abhishek Sharma,i think later vijay is 3.6. 
+12:50:48,Vijay Mishra,how three point six and either 3.6 or either 3.7.9 if i'm 
+12:50:52,Abhishek Sharma,it is 3.6. 
+12:51:08,Vijay Mishra,okay. roses will look into it like i think the okay anything like apart from that. 
+12:51:15,Apoorv Nag,"anything, and i'm good. "
+12:51:21,Vijay Mishra,"so, you guys will be implementing right now, aws or like later. "
+12:51:49,Apoorv Nag,"um once we are sorted out with the this back end we will shortly once whatever we have done till now, okay? we will just complete that part and we will host it in aws and we will just test it out our main integration, whether it is working or not because the login part, once we have to do the login, through that domain, is the domain and all there. the ec2 which you have created. okay, "
+12:51:51,Vijay Mishra,yeah. 
+12:51:58,Apoorv Nag,"for google earth, using the domain name, and then we will get that token in our system in our okay, "
+12:52:01,Vijay Mishra,"yes, that is there. "
+12:52:04,Apoorv Nag,"okay, tk,  let's take a, "
+12:52:10,Vijay Mishra,"i still need to, like, check on the new machine. yes, but old machine, it is settling. will. "
+12:52:24,Apoorv Nag,"okay, we will we will as fast as possible. we will quickly try to get settled with that aws machine. okay, we will just set up our environment there and we will test out the flow, which we have created currently taken. "
+12:52:26,Vijay Mishra,"oh, you're saying like locally? "
+12:52:41,Apoorv Nag,"no, not locally in aws. you must have created some project folder, right? where i get you must have deployed your project rapid innovation aiml. they are also inside the machine somewhere. "
+12:52:49,Vijay Mishra,"how did that that we did what but what i'm saying key, you know for this project we have just bought the new machine on that. i need to check "
+12:53:01,Apoorv Nag,actually. thank you. so the repository set up and the environment codes that will be done by you. are we will be doing 
+12:53:17,Vijay Mishra,"i think no for the for our functionality, for the hour, you use a different function, we already fixed it, okay? but like, you'll be like, you know, doing all the line next thing, because earlier we done it on the chrome, so you need to like, do all the no driver for lineups "
+12:53:19,Apoorv Nag,yes. 
+12:53:26,Apoorv Nag,"yes. you, yeah, i can figure it out. no issues. "
+12:53:27,Vijay Mishra,well. 
+12:53:53,Apoorv Nag,"okay, fine. let us know like or you can give two access like one access to a bishake and me. okay, by we will supply you our public keys so we can get into that machine and we will figure like we will set, we will do the setup. okay. speaking. "
+12:54:05,Vijay Mishra,"so okay. so i think you're thank you first will be doing on locally, then you'll be moving on to machine. "
+12:54:16,Apoorv Nag,"yes. first, let me just finish off the flow in the local. they are doing the integration part of these two apis. they are having some issues. we will figure it out, it will not take much time, then we "
+12:54:18,Vijay Mishra,okay. 
+12:54:21,Vijay Mishra,who previously worked on the aws near team? 
+12:54:23,Apoorv Nag,here we shake. 
+12:54:24,Apoorv Nag,and obesity. 
+12:54:50,Vijay Mishra,"okay. so, okay noise is like a, what? i was suggesting he one person can look into it like, because look, that will be your separate part. i'm telling you because you guys need to like, not do the thing from scratch again. no. because earlier we used a chrome browser, chrome browser, and no driver. this time, we need to do based on the linex driver. okay. headless browser, even "
+12:54:56,Vijay Mishra,"okay, that is a you know some different thing i think you can. one guys can separately look into it. "
+12:54:57,Apoorv Nag,"okay, praveen "
+12:55:01,Vijay Mishra,"and this is just, that is just a suggestion, you guys can choose. "
+12:55:19,Apoorv Nag,"okay, praveen from our team has the well done headless mode. on selenium abhishek has done this part aws. well, coleman is also here, who will be so resolving. all the epa related bugs. "
+12:55:28,Vijay Mishra,so apart from that thing i think you know that driver thing and other have less thing. everything is like same only like no whether you run on locally or on the easy to 
+12:55:32,Apoorv Nag,"yes, everything is same. "
+12:55:40,Vijay Mishra,"so what you like suggesting here. so you start like working on there on, or should you like first do on the locally and then you will move on there on "
+12:55:41,Apoorv Nag,"first, we will do it in locally, "
+12:55:57,Vijay Mishra,"okay so okay. okay. so then don't do it noises and whenever you guys need it now that then just ask me and i'll be providing you all the, you know. all the pam file one for accessing the instance or other thing will be giving you. "
+12:55:58,Apoorv Nag,okay. 
+12:56:10,Vijay Mishra,"any day? no that is costing that that is costing us. so it's good key. you know if you're doing using instance and it's better use for the, you know, like proper purpose. not for just what just for using it. "
+12:56:12,Apoorv Nag,"hmm, "
+12:56:13,Vijay Mishra,that's because that is costing us. 
+12:56:24,Apoorv Nag,"right? and we will not need them phase, we will just give you public ips so that you can pemphite can belong to only one user. so you can keep that. "
+12:56:26,Vijay Mishra,huh. no shoes like 
+12:56:39,Apoorv Nag,"tk. okay, fine. i will be creating that tickets for all the subtask cooking in the jira dashboard. in my, in the same main ticket as a task, "
+12:57:06,Vijay Mishra,"hmm, and again, so we are good with the timeline i think or you'll be like suggesting after four. so it's better to do it. no, once the be done the r&d, you know, after that assignment will be okay. you're getting it because we need to, you know, stick with the timeline by anyhow you getting it now because we already got late one time. so, the persons will be asking for that. so we need to give him the final deadline by anyhow. i mean, we need to present you okay. "
+12:57:07,Apoorv Nag,hmm. 
+12:57:15,Vijay Mishra,so it's like better to do the r&d and then we'll discuss again and then we can like finalize the time then 
+12:57:17,Vijay Mishra,then we can do it. 
+12:57:26,Apoorv Nag,"taken. um, give us today's time. by end of the day. we will just confirm if it is okay or not. "
+12:57:30,Vijay Mishra,"ah, today's time will be like more actually seven so it's in four, i think. "
+12:57:35,Apoorv Nag,by four o'clock. give us give us two hours. 
+12:57:40,Vijay Mishra,how hardly take five? you just give it. just tell us on 5x. 5. 
+12:57:40,Apoorv Nag,take you 
+12:57:58,Vijay Mishra," and just, i am suggesting, you know, for all of you guys like, please not, don't try to like no skip things, otherwise like, i mean, we can do but the only thing is, is just that, you know? suggested key better, not do it. otherwise it'll like no ruin the entire plan. i would say. "
+12:58:07,Vijay Mishra,"because you looking really good. now, what we have decided till now in the document. so if we are going to present this thing, not it'll like make sense for him as well. "
+12:58:11,Vijay Mishra,"okay, okay, that's it. i think "
+12:58:15,Apoorv Nag,"tk. okay. thank you. thank you, kiran. "
+12:58:16,Vijay Mishra,okay. 
+12:58:16,Vijay Mishra,thank 
+12:58:18,Kirankumar P,thank you. 
+12:58:21,Abhishek Negi,thank you. 
+12:59:43,Pravin Prabhakar Mohadika,thank you. 
